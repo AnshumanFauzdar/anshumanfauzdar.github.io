@@ -2,4 +2,4 @@
 
 Connecting all your needs!
 
-![](https://raw.githubusercontent.com/AnshumanFauzdar/anshumanfauzdar.github.io/master/Logo.jpg)
+![](https://raw.githubusercontent.com/AnshumanFauzdar/anshumanfauzdar.github.io/master/Logo%202.jpg)
