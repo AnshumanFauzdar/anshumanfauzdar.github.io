@@ -10,6 +10,12 @@
 <p>
 <a href="http://dl8.heyserver.in/serial/Rick.and.Morty/" >3. Rick and Morty</a>
 </p>
+<button onclick="goBack()">HOME</button>
 
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
 </body>
 </html>
