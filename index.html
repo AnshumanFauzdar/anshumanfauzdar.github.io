@@ -360,9 +360,8 @@
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-</script>
-
-function saveToFirebase(email) {
+  
+  function saveToFirebase(email) {
     var emailObject = {
         email: email
     };
@@ -377,6 +376,10 @@ function saveToFirebase(email) {
 }
 
 saveToFirebase(email);
+  
+</script>
+
+
 
 </body>
 
