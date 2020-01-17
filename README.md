@@ -1,5 +1,4 @@
 ## AnshumanFauzdar.github.io
 
-Connecting all your needs!
-
-![](https://raw.githubusercontent.com/AnshumanFauzdar/anshumanfauzdar.github.io/master/Logo%202.jpg)
+Personal CV website
+![Sample](https://github.com/AnshumanFauzdar/anshumanfauzdar.github.io/blob/master/screenshot.png)
