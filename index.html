@@ -249,15 +249,10 @@
             </div>
         </div> <!-- end section-header -->
 <div class="row section-header" data-aos="fade-up">
-
-  <div id="retainable-rss-embed"
-  data-rss="https://medium.com/feed/@anshumanfauzdar"
-  data-maxcols="1"
-  data-layout="grid"
-  data-poststyle="inline"
-  data-readmore="Read the rest"
-  data-buttonclass="btn btn-primary"
-  data-offset="-100"></div>
+  
+  <div id="medium-widget"></div>
+  <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+  <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@anshumanfauzdar","postsPerLine":1,"limit":4,"picture":"big","fields":["description","author","claps","publishAt"],"ratio":"original"}})</script>
 
 </div>
 <br>
@@ -295,9 +290,6 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-    <script src="https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
 
 </body>
 
