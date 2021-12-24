@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/custom.css">
     <script src="https://kit.fontawesome.com/489cd535c3.js" crossorigin="anonymous"></script>
 
     <!-- script
@@ -35,8 +36,8 @@
 
     <!-- favicons
     ================================================== -->
-    <link rel="shortcut icon" href="/NewIcon2.ico" type="image/x-icon">
-    <link rel="icon" href="/NewIcon2.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
 </head>
 
@@ -86,7 +87,7 @@
 
     <!-- home
     ================================================== -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.webp" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
 
         <div class="overlay"></div>
         <div class="shadow-overlay"></div>
@@ -95,15 +96,20 @@
 
             <div class="row home-content__main">
 
-                <h3>Welcome to mechatronics</h3>
+                
 
                 <h1>
                     Anshuman Fauzdar<br>
                 </h1>
 
+                <h3>Mechatronics Engineer</h3>
+
                 <div class="home-content__buttons">
                     <a name="Projects" href="#about" class="smoothscroll btn btn--stroke">
                         Projects
+                    </a>
+                    <a name="Blogs" href="#models" class="smoothscroll btn btn--stroke">
+                        3D Models
                     </a>
                     <a name="Blogs" href="#other" class="smoothscroll btn btn--stroke">
                         Blogs
@@ -143,20 +149,41 @@
     ================================================== -->
     <section id='about' class="s-about">
 
-        <div class="row section-header has-bottom-sep" data-aos="fade-up" height:"600px">
+        <div class="row section-header has-bottom-sep" data-aos="fade-up" height:"200px">
             <div class="col-full">
-                <h3 class="subhead subhead--dark">Main</h3>
                 <h1 class="display-1 display-1--light">Projects</h1>
             </div>
         </div> <!-- end section-header -->
-	<p><a href="https://github.com/AnshumanFauzdar/Manual-Oil-Dispenser" style="color: black"><center>1. Oil dispenser</center></a></p>
-	<p><a href="https://anshumanfauzdar.github.io/PhotoSplash/" style="color: black"><center>2. PhotoSplash</center></a></p>
-	<p><a href="https://github.com/AnshumanFauzdar/DIY-Smart-18650-tester" style="color: black"><center>3. DIY Li-ion Tester</center></a></p>
-       	<p><a href="https://anshumanfauzdar.github.io/DIY-ROG-BAG/" style="color: black"><center>4. DIY ROG BAG</center></a></p>
-	<p><a href="https://github.com/AnshumanFauzdar/Home-Automation-Blynk" style="color: black"><center>5. Home Automation</center></a></p>
-	<p><a href="https://anshumanfauzdar.github.io/Sound-and-music-reactive-ESP8266-WS2812B/" style="color: black"><center>6. Sound/Music reactive WS2812 [ESP8266]</center></a></p>
 
-        <div class="about__line"></div>
+        <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+
+        <a href="https://github.com/AnshumanFauzdar/Manual-Oil-Dispenser" style="color: black">
+        <button class="custom_btn custom_btn--stripe">
+        Oil dispenser
+        </button>
+        </a>
+
+        <a href="https://anshumanfauzdar.github.io/PhotoSplash/" style="color: black">
+        <button class="custom_btn custom_btn--stripe">
+        SliderX   
+        </button>
+        </a>
+
+        <a href="https://github.com/AnshumanFauzdar/Home-Automation-Blynk" style="color: black">
+        <button class="custom_btn custom_btn--stripe">
+        Home Automation
+        </button>
+        </a>
+
+        <a href="https://github.com/AnshumanFauzdar/spresense" style="color: black">
+        <button class="custom_btn custom_btn--stripe">
+        Predictive Maintenance
+        </button>
+        </a>
+
+        </div>
+
+       
 
     </section> <!-- end s-about -->
 
@@ -167,8 +194,7 @@
 
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead">About me!</h3>
-                <h1 class="display-2">Just into learning stage and making stuff!</h1>
+                <h1 class="display-2">About Me!</h1>
             </div>
         </div> <!-- end section-header -->
 
@@ -232,8 +258,8 @@
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-icon"><i class="icon-lego-block"></i></div>
                 <div class="service-text">
-                    <h3 class="h2">DIY Batteries</h3>
-                    <p>For not only projects but also powering your car and home li-ion DIY batteries are boon! I like to make battery packs and making sure my projects get enough juice!
+                    <h3 class="h2">Product Development</h3>
+                    <p>Including product research, UI, UX, PCB development, 3D hardware development, rapid prototyping and everything from start to finish
                     </p>
                 </div>
             </div>
@@ -248,8 +274,7 @@
 
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead subhead--dark">3D Models!</h3>
-                <h1 class="display-2">Models which I designed in solidworks!</h1>
+                <h1 class="display-2">Models which I designed in solidworks</h1>
             </div>
         </div> <!-- end section-header -->
 
@@ -260,9 +285,9 @@
                     <i class="fab fa-unity"></i>
                 </div>
                 <div class="service-text">                
-                <h3 class="h2">Sample Viewer</h3>
+                <h3 class="h2">Camera Lite</h3>
                 <p>
-                <model-viewer camera-controls alt="Sample item" src="models/Astronaut.glb">
+                <model-viewer camera-controls alt="Camera Lite" src="models/camera_lite.glb">
                 </model-viewer></p>
                 </div>
             </div>
@@ -272,9 +297,9 @@
                     <i class="fab fa-unity"></i>
                 </div>
                 <div class="service-text">                
-                <h3 class="h2">Sample Viewer</h3>
+                <h3 class="h2">Automated Surface Visual Inspection</h3>
                 <p>
-                <model-viewer camera-controls alt="A 3D model of an astronaut" src="models/skyline.glb">
+                <model-viewer camera-controls alt="Automated Surface Visual Inspection" src="models/incubation.glb">
                 </model-viewer></p>
             </div>
             </div>
@@ -284,9 +309,9 @@
                     <i class="fab fa-unity"></i>
                 </div>
                 <div class="service-text">                
-                <h3 class="h2">Sample Viewer</h3>
+                <h3 class="h2">SliderX</h3>
                 <p>
-                <model-viewer camera-controls alt="Sample item" src="models/Chair.glb">
+                <model-viewer camera-controls alt="Camera Slider" src="models/slider.glb">
                 </model-viewer></p>
                 </div>
             </div>
@@ -296,14 +321,14 @@
                     <i class="fab fa-unity"></i>
                 </div>
                 <div class="service-text">                
-                <h3 class="h2">Sample Viewer</h3>
+                <h3 class="h2">Room Table</h3>
                 <p>
-                <model-viewer camera-controls alt="Sample item" src="models/shishkebab.glb">
+                <model-viewer camera-controls alt="Room Table" src="models/table_room.glb">
                 </model-viewer></p>
                 </div>
             </div>
 
-            <div class="col-block service-item" data-aos="fade-up">
+            <!-- <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-icon-2">
                     <i class="fab fa-unity"></i>
                 </div>
@@ -325,6 +350,43 @@
                 <model-viewer camera-controls alt="Sample item" src="models/BarramundiFish.mixed.glb">
                 </model-viewer></p>
                 </div>
+            </div> -->
+
+        </div> <!-- end services-list -->
+
+    </section>
+
+    <!-- 3D Prints -->
+    <section id='prints' class="s-about" style="background-color: #E6DF9A;">
+
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h1 class="display-2">3D models printed on my Voxelab Aquila Printer</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row services-list block-1-2 block-tab-full">
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon-2">
+                    <i class="fab fa-unity"></i>
+                </div>
+                <div class="service-text">                
+                <h3 class="h2">Calibration Cubes</h3>
+                <p>
+                <img src="https://pbs.twimg.com/media/FEkKUbfVQAM0kEN?format=webp" alt=""></p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon-2">
+                    <i class="fab fa-unity"></i>
+                </div>
+                <div class="service-text">                
+                <h3 class="h2">Razerblade pendrive</h3>
+                <p>
+                <img src="https://pbs.twimg.com/media/FFAyvKxUYAk_9TQ?format=webp" alt=""></p>
+            </div>
             </div>
 
         </div> <!-- end services-list -->
